@@ -61,7 +61,7 @@ const App = () => {
         <div className="person-img">
           <img src={review.image} alt={review.name} />
         </div>
-        <h3 className="name" id={`author-${review.id}`}>
+        <h3 className="author" id={`author-${review.id}`}>
           {review.name}
         </h3>
         <p className="job">{review.job}</p>
