@@ -66,11 +66,11 @@ const App = () => {
         </h3>
         <p className="job">{review.job}</p>
         <p className="info">{review.text}</p>
-      </div>
-      <div className="buttons">
-        <button className="prev-btn" onClick={handlePrevReview}>Previous</button>
-        <button className="next-btn" onClick={handleNextReview}>Next</button>
-        <button className="random-btn" onClick={handleRandomReview}>Surprise Me</button>
+        <div className="buttons">
+             <button className="prev-btn" onClick={handlePrevReview}>Previous</button>
+             <button className="next-btn" onClick={handleNextReview}>Next</button>
+             <button className="random-btn" onClick={handleRandomReview}>Surprise Me</button>
+        </div>
       </div>
     </div>
   );
