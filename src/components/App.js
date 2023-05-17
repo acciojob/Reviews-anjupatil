@@ -69,7 +69,7 @@ const App = () => {
         <div className="buttons">
              <button className="prev-btn" onClick={handlePrevReview}>Previous</button>
              <button className="next-btn" onClick={handleNextReview}>Next</button>
-             <button className="random-btn" onClick={handleRandomReview}>Surprise Me</button>
+             <button className="random-btn" onClick={handleRandomReview}>surprise me</button>
         </div>
       </div>
     </div>
